@@ -56,11 +56,11 @@ function main() {
 }
 
 let q1 = new Question('How many million miles is Earth from the Sun?',['123', '93', '150'], 1);
-let index_of_a_question = Math.floor(Math.random() * arrayOfQuestions.length);
+// let index_of_a_question = Math.floor(Math.random() * arrayOfQuestions.length);
 let user;
 
 main();
-debug;
+// debug;
 while(user !== "q") {
   user = parseInt(prompt("Please make a selection"));
   switch (user) {
